@@ -2,7 +2,7 @@ using System;
 
 namespace Pets
 {
-  public class Dog
+  public class Snake
   {
     public string TalkToOwner()
     {
