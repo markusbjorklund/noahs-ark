@@ -22,7 +22,7 @@ public class PetTests
     Assert.AreEqual(expected, actual);
   }
     [Test]
-  public void BirdTalkToOwnerReturnsTweet()
+  public void BirdTalkToOwnerReturnTweet()
   {
     string expected = "Tweet!";
     string actual = new Bird().TalkToOwner();
