@@ -1,5 +1,7 @@
 using System;
 
+// hi, this is dog
+
 namespace Pets
 {
   public class Dog
