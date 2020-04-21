@@ -2,6 +2,6 @@ namespace Animals
 {
   public abstract class Animal
   {
-    public string MakeSound();
+    public abstract string MakeSound();
   }
 }
