@@ -29,12 +29,4 @@ public class PetTests
 
     Assert.AreEqual(expected, actual);
   }
-    [Test]
-  public void SnakeTalkToOwnerReturnsSssss()
-  {
-    string expected = "Sssssss!";
-    string actual = new Snake().TalkToOwner();
-
-    Assert.AreEqual(expected, actual);
-  }
 }

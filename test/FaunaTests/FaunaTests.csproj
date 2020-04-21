@@ -13,7 +13,7 @@
   </ItemGroup>
 
   <ItemGroup>
-    <ProjectReference Include="..\..\src\NewTypes\NewTypes.csproj" />
+    <ProjectReference Include="..\..\src\Fauna\Fauna.csproj" />
   </ItemGroup>
 
 </Project>
