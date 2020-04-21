@@ -6,7 +6,7 @@ namespace Animals
   {
     public override string MakeSound()
     {
-      return "Howl!";
+      return "Owooooo!";
     }
     public string Hunt()
     {
