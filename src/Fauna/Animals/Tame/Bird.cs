@@ -1,12 +1,21 @@
 using System;
 
-namespace Pets
+namespace Animals
 {
-    public class Bird
+  public class Bird : Animal, ITame
+  {
+    public string name { get; set; }
+    public Bird()
     {
-        public string TalkToOwner()
-        {
-          return "Tweet!";
-        }
+      this.name = name;
     }
+    public string TalkToOwner()
+    {
+      return "Tweet!";
+    }
+    public string ComeHere()
+    {
+      return this.name + " came to the owner.";
+    }
+  }
 }
