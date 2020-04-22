@@ -5,7 +5,7 @@ namespace Animals
   public class Bird : Animal, ITame
   {
     public string name { get; set; }
-    public Bird()
+    public Bird(string name)
     {
       this.name = name;
     }
@@ -13,6 +13,11 @@ namespace Animals
     {
       return "Tweet!";
     }
+    public override string MakeSound()
+    {
+      return "Tweet!";
+    }
+    
     public string ComeHere()
     {
       return this.name + " came to the owner.";
