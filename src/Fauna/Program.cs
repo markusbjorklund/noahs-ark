@@ -1,5 +1,5 @@
 using System;
-using Pets;
+using Animals;
 
 namespace ConsoleApplication
 {
@@ -7,12 +7,14 @@ namespace ConsoleApplication
   {
     public static void Main(string[] args)
     {
-      Dog doggie = new Dog();
-      Cat cattie = new Cat();
+      // Dog doggie = new Dog();
+      // Cat cattie = new Cat();
       
-      Console.WriteLine(doggie.TalkToOwner());
-      Console.WriteLine(cattie.TalkToOwner());
+      // Console.WriteLine(doggie.TalkToOwner());
+      // Console.WriteLine(cattie.TalkToOwner());
       
+      Bird birdie = new Bird("Roadrunner");
+      Console.WriteLine(birdie.TalkToOwner());  
     }
   }
 }
