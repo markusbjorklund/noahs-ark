@@ -1,8 +1,8 @@
 using System;
 using NUnit.Framework;
-using Pets;
+using Animals;
 
-public class PetTests
+public class AnimalTests
 {
   [Test]
   public void DogTalkToOwnerReturnsWoof()
@@ -25,8 +25,8 @@ public class PetTests
   public void BirdTalkToOwnerReturnTweet()
   {
     string expected = "Tweet!";
-    string actual = new Bird().TalkToOwner();
+    string actual = new Bird("Roadrunner").TalkToOwner();
 
-    Assert.AreEqual(expected, actual);
+    Assert.AreEqual(expected, actual, "Bird does not say that!");
   }
 }

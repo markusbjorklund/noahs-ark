@@ -2,7 +2,7 @@ using System;
 
 // hi, this is dog
 
-namespace Pets
+namespace Animals
 {
   public class Dog
   {
