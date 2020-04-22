@@ -14,7 +14,11 @@ namespace ConsoleApplication
       // Console.WriteLine(cattie.TalkToOwner());
       
       Bird birdie = new Bird("Roadrunner");
-      Console.WriteLine(birdie.TalkToOwner());  
+      Cat cattie = new Cat("Garfield");
+      Dog doggie = new Dog("Scooby-Doo");
+      Console.WriteLine(birdie.TalkToOwner());
+      Console.WriteLine(cattie.TalkToOwner()); 
+      Console.WriteLine(doggie.TalkToOwner()); 
     }
   }
 }
