@@ -20,7 +20,8 @@ namespace ConsoleApplication
       Console.WriteLine(birdie.TalkToOwner());
       Console.WriteLine(cattie.TalkToOwner()); 
       Console.WriteLine(doggie.TalkToOwner());
-      Console.WriteLine(heppa.TalkToOwner());  
+      Console.WriteLine(heppa.TalkToOwner());
+      Console.WriteLine(heppa.ComeHere());  
     }
   }
 }
