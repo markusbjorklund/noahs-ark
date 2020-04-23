@@ -32,6 +32,15 @@ public class AnimalTests
     Assert.AreEqual(expected, actual, "Bird does not say that!");
   }
 
+  [Test]
+  public void HorseTalkToOwnerReturnsIhahaa()
+  {
+    string expected = "Ihahaa!";
+    string actual = new Horse("Heppa").TalkToOwner();
+
+    Assert.AreEqual(expected, actual, "Nope!");
+  }
+
   // make sound
   [Test]
   public void DogMakethisSound()
@@ -58,6 +67,15 @@ public class AnimalTests
     string actual = new Bird("Roadrunner").MakeSound();
 
     Assert.AreEqual(expected, actual, "Bird does not say that!");
+  }
+
+  [Test]
+  public void HorseMakeThisSound()
+  {
+    string expected = "Ihahaa!";
+    string actual = new Horse("Heppa").MakeSound();
+
+    Assert.AreEqual(expected, actual, "Nope!");
   }
 
   [Test]
