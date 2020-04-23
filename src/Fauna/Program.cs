@@ -20,8 +20,8 @@ namespace ConsoleApplication
       Bear brownie = new Bear();
 
       Console.WriteLine(birdie.TalkToOwner());
-      Console.WriteLine(cattie.TalkToOwner()); 
-      Console.WriteLine(doggie.TalkToOwner());
+      Console.WriteLine(cattie.MakeSound()); 
+      Console.WriteLine(doggie.ComeHere());
       Console.WriteLine(heppa.TalkToOwner());
       Console.WriteLine(heppa.ComeHere());
       Console.WriteLine(heppa.MakeSound());
