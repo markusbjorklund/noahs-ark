@@ -38,7 +38,7 @@ public class AnimalTests
     string expected = "Ihahaa!";
     string actual = new Horse("Heppa").TalkToOwner();
 
-    Assert.AreEqual(expected, actual, "Nope!");
+    Assert.AreEqual(expected, actual, "Horse should say Ihahaa!");
   }
 
   // make sound
@@ -75,7 +75,7 @@ public class AnimalTests
     string expected = "Ihahaa!";
     string actual = new Horse("Heppa").MakeSound();
 
-    Assert.AreEqual(expected, actual, "Nope!");
+    Assert.AreEqual(expected, actual, "Horse should say Ihahaa!");
   }
 
   [Test]
