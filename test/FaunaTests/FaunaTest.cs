@@ -4,7 +4,7 @@ using NUnit.Framework;
 
 public class AnimalTests
 {
-  // talk to owner
+  // talk to owner test
   [Test]
   public void DogTalkToOwnerReturnsWoof()
   {
@@ -41,7 +41,7 @@ public class AnimalTests
     Assert.AreEqual(expected, actual, "Horse should say Ihahaa!");
   }
 
-  // make sound
+  // make sound tests
   [Test]
   public void DogMakethisSound()
   {
@@ -103,5 +103,25 @@ public class AnimalTests
     string actual = new Wolf().MakeSound();
 
     Assert.AreEqual(expected, actual, "Wolf does not say that!");
+  }
+
+  // come here tests
+  [Test]
+  public void BirdComeHere()
+  {
+    string actual = new Bird().ComeHere(); 
+    string expected = actual.ToString();
+
+    Assert.AreEqual(expected, actual, "The method does not work!");
+  }
+
+    // test for hunts
+  [Test]
+  public void WolfIsHunting()
+  {
+    string actual = new Wolf().Hunt();
+    string expected = "Wolf hunts";
+
+    Assert.AreEqual(expected, actual, "Something is wrong with the hunt method!");
   }
 }
