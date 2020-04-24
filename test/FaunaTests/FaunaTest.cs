@@ -109,7 +109,7 @@ public class AnimalTests
   [Test]
   public void BirdComeHere()
   {
-    string actual = new Bird().ComeHere(); 
+    string actual = new Bird("Roadrunner").ComeHere(); 
     string expected = actual.ToString();
 
     Assert.AreEqual(expected, actual, "The method does not work!");
@@ -120,7 +120,7 @@ public class AnimalTests
   public void WolfIsHunting()
   {
     string actual = new Wolf().Hunt();
-    string expected = "Wolf hunts";
+    string expected = "Wolf hunts.";
 
     Assert.AreEqual(expected, actual, "Something is wrong with the hunt method!");
   }
