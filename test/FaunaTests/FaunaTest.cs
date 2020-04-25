@@ -24,7 +24,7 @@ public class AnimalTests
   }
 
   [Test]
-  public void BirdTalkToOwnerRreturnsMeow()
+  public void BirdTalkToOwnerReturnsMeow()
   {
     string expected = "Tweet!";
     string actual = new Bird("Roadrunner").TalkToOwner();
@@ -122,6 +122,22 @@ public class AnimalTests
     string actual = new Wolf().Hunt();
     string expected = "Wolf hunts.";
 
+    Assert.AreEqual(expected, actual, "Something is wrong with the hunt method!");
+  }
+
+  [Test]
+  public void BearIsHunting()
+  {
+    string actual = new Bear().Hunt();
+    string expected = "Bear hunts.";
+    Assert.AreEqual(expected, actual, "Something is wrong with the hunt method!");
+  }
+  
+  [Test]
+  public void TigerIsHunting()
+  {
+    string actual = new Tiger().Hunt();
+    string expected = "Tiger hunts.";
     Assert.AreEqual(expected, actual, "Something is wrong with the hunt method!");
   }
 }
