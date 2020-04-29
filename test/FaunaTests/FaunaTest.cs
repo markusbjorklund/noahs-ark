@@ -72,7 +72,7 @@ public class AnimalTests
   [Test]
   public void HorseMakeThisSound()
   {
-    string expected = "Ihahaa!";
+    string expected = "Hello!";
     string actual = new Horse("Heppa").MakeSound();
 
     Assert.AreEqual(expected, actual, "Horse should say Ihahaa!");
