@@ -15,7 +15,7 @@ namespace Animals
     } 
      public override string MakeSound()
     {
-      return "Ihahaa!";
+      return "Hello!";
     }
     
     public string ComeHere()
