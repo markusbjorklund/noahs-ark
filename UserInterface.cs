@@ -1,14 +1,14 @@
 using System;
 using System.Collections.Generic;
-using System.IO;
-using System.Text.RegularExpressions;
+using Animals;
 
-namespace sandbox
+namespace ConsoleApplication
 {
-  class Program
+  public class Program
   {
-    static void Main(string[] args)
+    public static void Main(string[] args)
     {
+
       string wildAnimals = "1 - Wolf \n2 - Tiger \n3 - Bear \n";
       string tameAnimals = "4 - Bird \n5 - Cat \n6 - Dog \n7 - Horse";
       string wildHunts = "M - Make sound \nH - Hunt";
@@ -40,45 +40,30 @@ namespace sandbox
         /* wolf */
         if (navigation == "1")
         {
-          Wolf Wolf = new Wolf() )
+          string name = "Wolf";
+          Console.WriteLine("You have chosen " + name);
           Console.WriteLine(question + "\n" + wildHunts);
-        }
-        /* Tiger */
-        if (navigation == "2")
-        {
-          // you have chosen tiger
-          Console.WriteLine(question + "\n" + wildHunts);
-        }
-        /* Bear */
-        if (navigation == "3")
-        {
-          // you have chosen bear
-          Bear Bear = new Bear();
-          Console.WriteLine(question + "\n" + wildHunts);
-
-        }
-
-        /* Bird */
-        if (navigation == "4")
-        {
-          Console.WriteLine(question + "\n" + tameEats);
-        }
-        /* Cat */
-        if (navigation == "5")
-        {
-          Console.WriteLine(question + "\n" + tameEats);
-        }
-        /* Dog */
-        if (navigation == "6")
-        {
-          Console.WriteLine(question + "\n" + tameEats);
-        }
-        /* Horse */
-        if (navigation == "7")
-        {
-          Console.WriteLine(question + "\n" + tameEats);
         }
       }
     }
   }
 }
+// Dog doggie = new Dog();
+// Cat cattie = new Cat();
+
+// Console.WriteLine(doggie.TalkToOwner());
+// Console.WriteLine(cattie.TalkToOwner());
+
+// Bird birdie = new Bird("Roadrunner");
+// Cat cattie = new Cat("Garfield");
+// Dog doggie = new Dog("Scooby-Doo");
+// Horse heppa = new Horse("Jolly Jumper");
+// Bear brownie = new Bear();
+
+// Console.WriteLine(birdie.TalkToOwner());
+// Console.WriteLine(cattie.MakeSound()); 
+// Console.WriteLine(doggie.ComeHere());
+// Console.WriteLine(heppa.TalkToOwner());
+// Console.WriteLine(heppa.ComeHere());
+// Console.WriteLine(heppa.MakeSound());
+// Console.WriteLine(brownie.Hunt());
