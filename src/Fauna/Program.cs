@@ -8,7 +8,6 @@ namespace ConsoleApplication
   {
     public static void Main(string[] args)
     {
-
       // start with welcome and list of animals
       string animals = "1 - Wolf \n2 - Tiger \n3 - Bear \n4 - Bird \n5 - Cat \n6 - Dog \n7 - Horse";
       Console.WriteLine("\n==============================================================\n");
