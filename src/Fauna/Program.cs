@@ -59,7 +59,7 @@ namespace ConsoleApplication
         Console.WriteLine(wildNav);
         {
           int chosenMethod = Convert.ToInt32(Console.ReadLine());
-          if (chosenMethod == 1)
+          if (chosenMethod == 2)
           {
             Console.WriteLine("\n#################################\n");
             Console.WriteLine(dofus.MakeSound());
@@ -83,13 +83,13 @@ namespace ConsoleApplication
         Console.WriteLine(wildNav);
         {
           int chosenMethod = Convert.ToInt32(Console.ReadLine());
-          if (chosenMethod == 1)
+          if (chosenMethod == 3)
           {
             Console.WriteLine("\n#################################\n");
             Console.WriteLine(brownie.MakeSound());
             Console.WriteLine("\n#################################\n");
           }
-          if (chosenMethod == 2)
+          if (chosenMethod == 3)
           {
             Console.WriteLine("\n#################################\n");
             Console.WriteLine(brownie.Hunt());
