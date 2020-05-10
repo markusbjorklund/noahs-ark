@@ -22,10 +22,10 @@ namespace ConsoleApplication
       int chosenAnimal = Convert.ToInt32(Console.ReadLine());
 
       // list what the wild animals can do and option to quit
-      string wildNav = "1 - Make sound \n2 - Hunt \n\nQuit the program with [0]";
+      string wildNav = "1 - Make sound \n2 - Hunt \n\nChoose with [1-2] - [0] quits the program";
 
       // list what the tame animals can do and option to quit
-      string tameNav = "1 - Eat \n2 - Talk to owner \n3 - Make sound \n4 - Come here \n\nQuit the program with [0]";
+      string tameNav = "1 - Eat \n2 - Talk to owner \n3 - Make sound \n4 - Come here \n\nChoose with [1-4] - [0] quits the program";
 
       while (chosenAnimal == 1)
       {
