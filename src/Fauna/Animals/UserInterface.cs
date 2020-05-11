@@ -22,80 +22,89 @@ namespace Animals
       int chosenAnimal = Convert.ToInt32(Console.ReadLine());
 
       // list what the wild animals can do and option to quit
-      string wildNav = "1 - Make sound \n2 - Hunt \n\nChoose with [1-2] - [0] quits the program";
+      string wildNav = "1 - Make sound \n2 - Hunt \n\nChoose with [1-2] - Quit with [0]";
 
       // list what the tame animals can do and option to quit
-      string tameNav = "1 - Eat \n2 - Talk to owner \n3 - Make sound \n4 - Come here \n\nChoose with [1-4] - [0] quits the program";
+      string tameNav = "1 - Eat \n2 - Talk to owner \n3 - Make sound \n4 - Come here \n\nChoose with [1-4] - Quit with [0]";
 
-      while (chosenAnimal == 1)
+      if (chosenAnimal == 1)
       {
         Wolf alpha = new Wolf();
-        Console.WriteLine("\n==============================================================\n");
-        Console.WriteLine("What do you want the wolf to do?\n\n" + wildNav);
         {
-          int chosenMethod = Convert.ToInt32(Console.ReadLine());
-          if (chosenMethod == 1)
+          while (chosenAnimal == 1)
           {
             Console.WriteLine("\n==============================================================\n");
-            Console.WriteLine(alpha.MakeSound());
+            Console.WriteLine("What do you want the wolf to do?\n\n" + wildNav);
+            int chosenMethod = Convert.ToInt32(Console.ReadLine());
+            if (chosenMethod == 1)
+            {
+              Console.WriteLine("\n==============================================================\n");
+              Console.WriteLine(alpha.MakeSound());
 
-          }
-          if (chosenMethod == 2)
-          {
-            Console.WriteLine("\n==============================================================\n");
-            Console.WriteLine(alpha.Hunt());
-          }
-          if (chosenMethod == 0)
-          {
-            break;
+            }
+            if (chosenMethod == 2)
+            {
+              Console.WriteLine("\n==============================================================\n");
+              Console.WriteLine(alpha.Hunt());
+            }
+            if (chosenMethod == 0)
+            {
+              break;
+            }
           }
         }
       }
 
-      while (chosenAnimal == 2)
+      if (chosenAnimal == 2)
       {
         Tiger dofus = new Tiger();
-        Console.WriteLine("\n==============================================================\n");
-        Console.WriteLine("What do you want the tiger to do?\n\n" + wildNav);
+        while (chosenAnimal == 2)
         {
+          Console.WriteLine("\n==============================================================\n");
+          Console.WriteLine("What do you want the tiger to do?\n\n" + wildNav);
           int chosenMethod = Convert.ToInt32(Console.ReadLine());
-          if (chosenMethod == 1)
           {
-            Console.WriteLine("\n==============================================================\n");
-            Console.WriteLine(dofus.MakeSound());
-          }
-          if (chosenMethod == 2)
-          {
-            Console.WriteLine("\n==============================================================\n");
-            Console.WriteLine(dofus.Hunt());
-          }
-          if (chosenMethod == 0)
-          {
-            break;
+            if (chosenMethod == 1)
+            {
+              Console.WriteLine("\n==============================================================\n");
+              Console.WriteLine(dofus.MakeSound());
+            }
+            if (chosenMethod == 2)
+            {
+              Console.WriteLine("\n==============================================================\n");
+              Console.WriteLine(dofus.Hunt());
+            }
+            if (chosenMethod == 0)
+            {
+              break;
+            }
           }
         }
       }
 
-      while (chosenAnimal == 3)
+      if (chosenAnimal == 3)
       {
         Bear brownie = new Bear();
-        Console.WriteLine("\n==============================================================\n");
-        Console.WriteLine("What do you want the bear to do?\n\n" + wildNav);
+        while (chosenAnimal == 3)
         {
+          Console.WriteLine("\n==============================================================\n");
+          Console.WriteLine("What do you want the bear to do?\n\n" + wildNav);
           int chosenMethod = Convert.ToInt32(Console.ReadLine());
-          if (chosenMethod == 1)
           {
-            Console.WriteLine("\n==============================================================\n");
-            Console.WriteLine(brownie.MakeSound());
-          }
-          if (chosenMethod == 2)
-          {
-            Console.WriteLine("\n==============================================================\n");
-            Console.WriteLine(brownie.Hunt());
-          }
-          if (chosenMethod == 0)
-          {
-            break;
+            if (chosenMethod == 1)
+            {
+              Console.WriteLine("\n==============================================================\n");
+              Console.WriteLine(brownie.MakeSound());
+            }
+            if (chosenMethod == 2)
+            {
+              Console.WriteLine("\n==============================================================\n");
+              Console.WriteLine(brownie.Hunt());
+            }
+            if (chosenMethod == 0)
+            {
+              break;
+            }
           }
         }
       }
