@@ -174,8 +174,8 @@ public class AnimalTests
     public void TigerIsHunting()
     {
         List<string> outcomes = new List<string>();
-        outcomes.Add("Wolf finds food, gains 1 kg and weighs now 1 kg.");
-        outcomes.Add("Wolf does not find food and weighs 0 kg.");
+        outcomes.Add("Tiger finds food, gains 1 kg and weighs now 1 kg.");
+        outcomes.Add("Tiger does not find food and weighs 0 kg.");
 
         string actual = new Tiger().Hunt();
 
