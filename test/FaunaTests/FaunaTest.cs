@@ -137,7 +137,6 @@ public class AnimalTests
   public void TigerIsHunting()
   {
     string actual = new Tiger().Hunt();
-    string expected = "Tiger hunts.";
-    Assert.AreEqual(expected, actual, "Something is wrong with the hunt method!");
+    Assert.That(actual, Does.Match("Tiger finds food, gains 1kg and weighs now 1 kg. | Tiger does not find food and weighs now 0 kg"));
   }
 }
