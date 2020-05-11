@@ -115,7 +115,7 @@ namespace Animals
             if (chosenMethod == 1)
             {
               Console.WriteLine("\n==============================================================\n");
-              Console.WriteLine("This is for the eat function!");
+              Console.WriteLine(birdie.Eat());
             }
             if (chosenMethod == 2)
             {
@@ -155,7 +155,7 @@ namespace Animals
             if (chosenMethod == 1)
             {
               Console.WriteLine("\n==============================================================\n");
-              Console.WriteLine("This is for the eat function!");
+              Console.WriteLine(cattie.Eat());
             }
             if (chosenMethod == 2)
             {
@@ -195,7 +195,7 @@ namespace Animals
             if (chosenMethod == 1)
             {
               Console.WriteLine("\n==============================================================\n");
-              Console.WriteLine("This is for the eat function!");
+              Console.WriteLine(doggie.Eat());
             }
             if (chosenMethod == 2)
             {
@@ -235,7 +235,7 @@ namespace Animals
             if (chosenMethod == 1)
             {
               Console.WriteLine("\n==============================================================\n");
-              Console.WriteLine("This is for the eat function!");
+              Console.WriteLine(heppa.Eat());
             }
             if (chosenMethod == 2)
             {
