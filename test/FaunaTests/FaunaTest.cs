@@ -146,12 +146,7 @@ public class AnimalTests
     public void WolfIsHunting()
     {
         string actual = new Wolf().Hunt();
-
-        Assert.Multiple(() =>
-        {
-        Assert.That(actual, Does.Match("Wolf finds food, gains 1kg and weighs now 1 kg."));
-        Assert.That(actual, Does.Match("Wolf does not find food and weighs now 0 kg."));
-        });
+        Assert.That(actual, Does.Match("Wolf.*"));
         //Assert.That(actual, Does.Match("Wolf finds food, gains 1kg and weighs now 1 kg."));
         //Assert.That(actual, Does.Match("Wolf does not find food and weighs now 0 kg."));
 
@@ -161,11 +156,12 @@ public class AnimalTests
     [Test]
     public void BearIsHunting()
     {
-        string[] stringArray;
-        stringArray = new string[2]{"Bear finds food, gains 1kg and weighs now 1 kg.", "Bear does not find food and weighs now 0 kg."}; 
+        string[] outcome = new string[2];
+        outcome[0] = "Bear finds food, gains 1kg and weighs now 1 kg.";
+        outcome[1] = "Bear does not find food and weighs now 0 kg.";
 
         string actual = new Bear().Hunt();
-        Assert.That(actual, Is.AnyOf(stringArray));
+        Assert.That(actual, Is.AnyOf(outcome));
         //Assert.That(actual, Does.Match("Bear finds food, gains 1kg and weighs now 1 kg."));
         //Assert.That(actual, Does.Match("Bear does not find food and weighs now 0 kg."));
     }
