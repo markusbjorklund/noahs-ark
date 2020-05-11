@@ -14,7 +14,7 @@ namespace Animals
       Console.WriteLine("\n==============================================================\n");
       Console.WriteLine("Welcome to Noahs ark!");
       Console.WriteLine("\n==============================================================\n");
-      Console.WriteLine("We have lots of different species of animals for you.\nHow about a fluffy tiger or a cute dog?\n");
+      Console.WriteLine("We have lots of different species of animals for you.\nHow about playing with a fluffy tiger or a cute dog?\n");
       Console.WriteLine(animals);
 
       // user chooses animal
