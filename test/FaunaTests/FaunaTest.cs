@@ -145,15 +145,15 @@ public class AnimalTests
     [Test]
     public void WolfIsHunting()
     {
+        List<string> outcomes = new List<string>();
+        outcomes.Add("Wolf finds food, gains 1 kg and weighs now 1 kg.");
+        outcomes.Add("Wolf does not find food and weighs now 0 kg.");
+
         string actual = new Wolf().Hunt();
-        Assert.That(actual, Does.Match("Wolf.*"));
-        //Assert.That(actual, Is.AnyOf(Is.EqualTo("Wolf finds food, gains 1 kg and weighs now 1 kg."), Is.EqualTo("Wolf does not find food and weighs now 0 kg.")));
-        
-        //Assert.That(actual, Does.Match("Wolf finds food, gains 1 kg and weighs now 1 kg."));
-        //Assert.That(actual, Does.Match("Wolf does not find food and weighs now 0 kg."));
 
+        Assert.That(outcomes, Contains.Item(actual));
 
-    }
+     }
 
     [Test]
     public void BearIsHunting()
