@@ -26,7 +26,7 @@ namespace Animals
             }
             else
             {
-              return this.GetType().Name + " does not find food and weighs " + this.weight + " kg.";
+                return this.GetType().Name + " does not find food and weighs " + this.weight + " kg.";
             }
         }
     }
