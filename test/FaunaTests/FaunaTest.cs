@@ -129,8 +129,8 @@ public class AnimalTests
   public void BearIsHunting()
   {
     string actual = new Bear().Hunt();
-    string expected = "Bear hunts.";
-    Assert.AreEqual(expected, actual, "Something is wrong with the hunt method!");
+    
+    Assert.That(actual, Does.Match("Bear finds food, gains 1kg and weighs now 1 kg. | Bear does not find food and weighs now 0 kg"));
   }
   
   [Test]
