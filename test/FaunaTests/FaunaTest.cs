@@ -146,8 +146,9 @@ public class AnimalTests
     public void WolfIsHunting()
     {
         string actual = new Wolf().Hunt();
+        Assert.That(actual, Does.Match("Wolf finds food, gains 1kg and weighs now 1 kg."));
+        Assert.That(actual, Does.Match("Wolf does not find food and weighs now 0 kg."));
 
-        Assert.That(actual, Does.Match("Wolf finds food, gains 1kg and weighs now 1 kg..*Wolf does not find food and weighs now 0 kg."));
 
     }
 
@@ -155,14 +156,15 @@ public class AnimalTests
     public void BearIsHunting()
     {
         string actual = new Bear().Hunt();
-
-        Assert.That(actual, Does.Match("Bear finds food, gains 1kg and weighs now 1 kg..*Bear does not find food and weighs now 0 kg."));
+        Assert.That(actual, Does.Match("Bear finds food, gains 1kg and weighs now 1 kg."));
+        Assert.That(actual, Does.Match("Bear does not find food and weighs now 0 kg."));
     }
 
     [Test]
     public void TigerIsHunting()
     {
         string actual = new Tiger().Hunt();
-        Assert.That(actual, Does.Match("Tiger finds food, gains 1kg and weighs now 1 kg..*Tiger does not find food and weighs now 0 kg."));
+        Assert.That(actual, Does.Match("Tiger finds food, gains 1kg and weighs now 1 kg."));
+        Assert.That(actual, Does.Match("Tiger does not find food and weighs now 0 kg."));
     }
 }
