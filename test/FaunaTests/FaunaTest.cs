@@ -1,7 +1,7 @@
 using System;
+using System.Collections.Generic;
 using Animals;
 using NUnit.Framework;
-
 public class AnimalTests
 {
     // talk to owner test
@@ -156,12 +156,10 @@ public class AnimalTests
     [Test]
     public void BearIsHunting()
     {
-        string[] outcome = new string[2];
-        outcome[0] = "Bear finds food, gains 1kg and weighs now 1 kg.";
-        outcome[1] = "Bear does not find food and weighs now 0 kg.";
+        var myList = new List<string> { "Bear finds food, gains 1kg and weighs now 1 kg.", "Bear does not find food and weighs now 0 kg." };
 
-        string expected = new Bear().Hunt();
-        Assert.That(expected, Is.AnyOf(outcome));
+        string actual = new Bear().Hunt();
+        Assert.That(myList, Contains.Item(actual));
         //Assert.That(actual, Does.Match("Bear finds food, gains 1kg and weighs now 1 kg."));
         //Assert.That(actual, Does.Match("Bear does not find food and weighs now 0 kg."));
     }
