@@ -26,6 +26,7 @@ namespace Animals
             }
             else
             {
+                Console.WriteLine(this.weight);
                 return this.GetType().Name + " does not find food and weighs " + this.weight + " kg.";
             }
         }
