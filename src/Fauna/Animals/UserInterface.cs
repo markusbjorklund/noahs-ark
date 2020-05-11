@@ -14,7 +14,7 @@ namespace Animals
       Console.WriteLine("\n==============================================================\n");
       Console.WriteLine("Welcome to Noahs ark!");
       Console.WriteLine("\n==============================================================\n");
-      Console.WriteLine("Here is our list of animals:\n");
+      Console.WriteLine("We have lots of different species of animals for you.\nHow about playing with a fluffy tiger or a cute dog?\n");
       Console.WriteLine(animals);
 
       // user chooses animal
@@ -112,7 +112,7 @@ namespace Animals
       if (chosenAnimal == 4)
       {
         Console.WriteLine("\n==============================================================\n");
-        Console.WriteLine("May I suggest that you start with giving your pet a name:");
+        Console.WriteLine("May we suggest that you start with giving the animal a name:");
         string birdName = Console.ReadLine();
         Bird birdie = new Bird(birdName);
         while (chosenAnimal == 4)
@@ -152,7 +152,7 @@ namespace Animals
       if (chosenAnimal == 5)
       {
         Console.WriteLine("\n==============================================================\n");
-        Console.WriteLine("May I suggest that you start with giving your pet a name:");
+        Console.WriteLine("May we suggest that you start with giving the animal a name:");
         string catName = Console.ReadLine();
         Cat cattie = new Cat(catName);
         while (chosenAnimal == 5)
@@ -192,7 +192,7 @@ namespace Animals
       if (chosenAnimal == 6)
       {
         Console.WriteLine("\n==============================================================\n");
-        Console.WriteLine("May I suggest that you start with giving your pet a name:");
+        Console.WriteLine("May we suggest that you start with giving the animal a name:");
         string dogName = Console.ReadLine();
         Dog doggie = new Dog(dogName);
         while (chosenAnimal == 6)
@@ -232,7 +232,7 @@ namespace Animals
       if (chosenAnimal == 7)
       {
         Console.WriteLine("\n==============================================================\n");
-        Console.WriteLine("May I suggest that you start with giving your pet a name:");
+        Console.WriteLine("May we suggest that you start with giving the animal a name:");
         string horseName = Console.ReadLine();
         Horse heppa = new Horse(horseName);
         while (chosenAnimal == 7)
