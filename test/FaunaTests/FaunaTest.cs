@@ -115,13 +115,39 @@ public class AnimalTests
         Assert.AreEqual(expected, actual, "The method does not work!");
     }
 
+    // Eat tests
+    [Test]
+    public void CatEats()
+    {
+        string actual = new Cat("Garfield").Eat();
+        Assert.That(actual, Does.Match("Garfield gained 1 kg, and weighs now 1 kg."));
+    }
+
+    public void DogEats()
+    {
+        string actual = new Dog("Doggie").Eat();
+        Assert.That(actual, Does.Match("Doggie gained 1 kg, and weighs now 1 kg."));
+    }
+
+    public void BirdEats()
+    {
+        string actual = new Bird("Birdie").Eat();
+        Assert.That(actual, Does.Match("Birdie gained 1 kg, and weighs now 1 kg."));
+    }
+    public void HorseEats()
+    {
+        string actual = new Horse("Horsie").Eat();
+        Assert.That(actual, Does.Match("Birdie gained 1 kg, and weighs now 1 kg."));
+    }
+
+
     // test for hunts
     [Test]
     public void WolfIsHunting()
     {
         string actual = new Wolf().Hunt();
 
-        Assert.That(actual, Does.Match("Wolf finds food, gains 1kg and weighs now 1 kg. | Wolf does not find food and weighs now 0 kg"));
+        Assert.That(actual, Does.Match("Wolf finds food, gains 1kg and weighs now 1 kg. | Wolf does not find food and weighs now 0 kg."));
 
     }
 
@@ -130,13 +156,13 @@ public class AnimalTests
     {
         string actual = new Bear().Hunt();
 
-        Assert.That(actual, Does.Match("Bear finds food, gains 1kg and weighs now 1 kg. | Bear does not find food and weighs now 0 kg"));
+        Assert.That(actual, Does.Match("Bear finds food, gains 1kg and weighs now 1 kg. | Bear does not find food and weighs now 0 kg."));
     }
 
     [Test]
     public void TigerIsHunting()
     {
         string actual = new Tiger().Hunt();
-        Assert.That(actual, Does.Match("Tiger finds food, gains 1kg and weighs now 1 kg. | Tiger does not find food and weighs now 0 kg"));
+        Assert.That(actual, Does.Match("Tiger finds food, gains 1kg and weighs now 1 kg. | Tiger does not find food and weighs now 0 kg."));
     }
 }
