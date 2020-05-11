@@ -146,9 +146,9 @@ public class AnimalTests
     public void WolfIsHunting()
     {
         string actual = new Wolf().Hunt();
-        Assert.That(actual, Is.AnyOf(Is.EqualTo("Wolf finds food, gains 1kg and weighs now 1 kg."), Is.EqualTo("Wolf does not find food and weighs now 0 kg.")));
+        Assert.That(actual, Is.AnyOf(Is.EqualTo("Wolf finds food, gains 1 kg and weighs now 1 kg."), Is.EqualTo("Wolf does not find food and weighs now 0 kg.")));
         //Assert.That(actual, Does.Match("Wolf.*"));
-        //Assert.That(actual, Does.Match("Wolf finds food, gains 1kg and weighs now 1 kg."));
+        //Assert.That(actual, Does.Match("Wolf finds food, gains 1 kg and weighs now 1 kg."));
         //Assert.That(actual, Does.Match("Wolf does not find food and weighs now 0 kg."));
 
 
@@ -161,14 +161,14 @@ public class AnimalTests
         Assert.That(actual, Does.Match("Bear.*"));
 
         //List<string> outcomes = new List<string>();
-        //outcomes.Add("Bear finds food, gains 1kg and weighs now 1 kg.");
+        //outcomes.Add("Bear finds food, gains 1 kg and weighs now 1 kg.");
         //outcomes.Add("Bear does not find food and weighs now 0 kg.");
 
         //string actual = new Bear().Hunt();
 
         //Assert.That(outcomes, Contains.Item(actual));
 
-        //Assert.That(actual, Does.Match("Bear finds food, gains 1kg and weighs now 1 kg."));
+        //Assert.That(actual, Does.Match("Bear finds food, gains 1 kg and weighs now 1 kg."));
         //Assert.That(actual, Does.Match("Bear does not find food and weighs now 0 kg."));
     }
 
