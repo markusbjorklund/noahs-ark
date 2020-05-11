@@ -161,7 +161,9 @@ public class AnimalTests
     [Test]
     public void BearIsHunting()
     {
-        string[] stringArray= new string[] {"Bear finds food, gains 1kg and weighs now 1 kg.","Bear does not find food and weighs now 0 kg."};
+        string[] stringArray;
+        stringArray = new string[2]{"Bear finds food, gains 1kg and weighs now 1 kg.", "Bear does not find food and weighs now 0 kg."}; 
+
         string actual = new Bear().Hunt();
         Assert.That(actual, Is.AnyOf(stringArray));
         //Assert.That(actual, Does.Match("Bear finds food, gains 1kg and weighs now 1 kg."));
