@@ -156,10 +156,14 @@ public class AnimalTests
     [Test]
     public void BearIsHunting()
     {
-        var myList = new List<string> { "Bear finds food, gains 1kg and weighs now 1 kg.", "Bear does not find food and weighs now 0 kg." };
+        List<string> outcomes = new List<string>();
+        outcomes.Add("Bear finds food, gains 1kg and weighs now 1 kg.");
+        outcomes.Add("Bear does not find food and weighs now 0 kg.");
 
         string actual = new Bear().Hunt();
-        Assert.That(myList, Contains.Item(actual));
+
+        Assert.That(outcomes, Contains.Item(actual));
+        
         //Assert.That(actual, Does.Match("Bear finds food, gains 1kg and weighs now 1 kg."));
         //Assert.That(actual, Does.Match("Bear does not find food and weighs now 0 kg."));
     }
