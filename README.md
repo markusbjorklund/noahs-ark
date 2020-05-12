@@ -1,7 +1,7 @@
 # Noahs-ark 
 CI pipeline exercise in Software Development course for Centrias Road to Software Engineering 2020.
 _ _ _
-####How the program works:
+#### How the program works:
 Our customer want's a program with **wild** and **tame** animals. 
 
 
