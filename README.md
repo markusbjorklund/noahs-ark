@@ -1,5 +1,5 @@
 # Noahs-ark 
-CI pipeline exercise in Software Development course for Centrias Road to Software Engineering 2020.
+_CI pipeline exercise in Software Development course for Centrias Road to Software Engineering 2020._
 _ _ _
 #### How the program works:
 Our customer want's a program with **wild** and **tame** animals. 
@@ -19,6 +19,11 @@ Our customer want's a program with **wild** and **tame** animals.
 * Come to the owner
 * Eat
 _ _ _ 
+
+[Our project's folder structure](https://github.com/markusbjorklund/noahs-ark/blob/master/assets/folder-structure-user-friendly.png)
+
+
+_ _ _
 
 [Our Trello board](https://trello.com/b/a4C3DPrX/3sharp)
 
