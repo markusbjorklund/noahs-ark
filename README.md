@@ -7,9 +7,9 @@ Our customer want's a program with **wild** and **tame** animals.
 
  ![tiger](https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcSbocNHYbr1nNFbRCwVNvrxDt5BhA1CmpD5WduI2VKAsHNLOutT&usqp=CAU)
  
- **Wild** animals can:  
+**Wild** animals can:  
 * Make sound
-* Hount
+* Hunt
 
 ![cat](https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcQP6KQaccJIkRiX6SkN3AsYuGue_41LwHpS7Deoy0zvI1p6Tftm&usqp=CAU)
 
