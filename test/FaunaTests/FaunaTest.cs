@@ -158,9 +158,6 @@ public class AnimalTests
     [Test]
     public void BearIsHunting()
     {
-        //string actual = new Bear().Hunt();
-        //Assert.That(actual, Does.Match("Bear.*"));
-
         List<string> outcomes = new List<string>();
         outcomes.Add("Bear finds food, gains 1 kg and weighs now 1 kg.");
         outcomes.Add("Bear does not find food and weighs 0 kg.");
