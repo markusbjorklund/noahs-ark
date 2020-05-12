@@ -23,6 +23,7 @@ namespace Animals
     // quit the program
     public void Stop()
     {
+      Console.Clear();
       Environment.Exit(1);
     }
 
