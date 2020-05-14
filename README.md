@@ -33,7 +33,7 @@ _ _ _
 _ _ _
 
 #### Here is the sequence diagram: ####
-![sequence](https://github.com/markusbjorklund/noahs-ark/blob/master/assets/sequence_diagram.png)
+![sequence](https://github.com/markusbjorklund/noahs-ark/blob/master/assets/sequence_dia.png)
 _ _ _
 
 [Link to our Trello board](https://trello.com/b/a4C3DPrX/3sharp)
