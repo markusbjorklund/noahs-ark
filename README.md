@@ -15,7 +15,7 @@ We have **wild** and **tame** animals.
 * Make sound
 * Hunt (if an animals hunt is succeeded the animal gains 1kg of weight.)
 ## TAME
-![dog](https://github.com/markusbjorklund/noahs-ark/blob/master/assets/dog.jpg)
+![dog](https://github.com/markusbjorklund/noahs-ark/blob/master/assets/max.jpg)
 
 **Tame** animals are **bird**, **cat**, **dog** and **horse** and they can: 
 * Talk to the owner
