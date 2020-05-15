@@ -9,13 +9,13 @@ This program consists of a UserInterface where you can try out all the animals. 
 We have **wild** and **tame** animals. 
 
 
- ![tiger](https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcSbocNHYbr1nNFbRCwVNvrxDt5BhA1CmpD5WduI2VKAsHNLOutT&usqp=CAU)
+ ![wolf](https://github.com/markusbjorklund/noahs-ark/blob/master/assets/wolf.jpg)
  
 **Wild** animals are **tiger**, **wolf** and **bear** and they can:  
 * Make sound
 * Hunt (if an animals hunt is succeeded the animal gains 1kg of weight.)
 
-![cat](https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcQP6KQaccJIkRiX6SkN3AsYuGue_41LwHpS7Deoy0zvI1p6Tftm&usqp=CAU)
+![dog](https://github.com/markusbjorklund/noahs-ark/blob/master/assets/dog.jpg)
 
 **Tame** animals are **bird**, **cat**, **dog** and **horse** and they can: 
 * Talk to the owner
