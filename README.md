@@ -8,13 +8,13 @@ This program consists of a UserInterface where you can try out all the animals. 
 
 We have **wild** and **tame** animals. 
 
-
+##WILD
  ![wolf](https://github.com/markusbjorklund/noahs-ark/blob/master/assets/wolf.jpg)
  
 **Wild** animals are **tiger**, **wolf** and **bear** and they can:  
 * Make sound
 * Hunt (if an animals hunt is succeeded the animal gains 1kg of weight.)
-
+##TAME
 ![dog](https://github.com/markusbjorklund/noahs-ark/blob/master/assets/dog.jpg)
 
 **Tame** animals are **bird**, **cat**, **dog** and **horse** and they can: 
