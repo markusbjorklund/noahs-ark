@@ -30,7 +30,7 @@ _ _ _
 _ _ _
 
 #### Here is the class diagram: ####
-![class](https://github.com/markusbjorklund/noahs-ark/blob/master/assets/class_diagram.png)
+![class](https://github.com/markusbjorklund/noahs-ark/blob/master/assets/classdiagram.png)
 _ _ _
 #### Here is the sequence diagram: ####
 ![sequence](https://github.com/markusbjorklund/noahs-ark/blob/master/assets/sequence_dia.png)
