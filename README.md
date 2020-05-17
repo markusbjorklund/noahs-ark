@@ -51,6 +51,6 @@ This image represents a scaled down folder structure of the files used in our pr
 
 _ _ _
 
-If you are interested in how we progressed with adding files, building the program and extending it you are welocmed to check out our board in Trello. You can find it here [here](https://trello.com/b/a4C3DPrX/3sharp).
+If you are interested in how we progressed with adding files, building the program and extending it you are welcomed to check out our board in Trello. You can find it  [here](https://trello.com/b/a4C3DPrX/3sharp).
 
  
