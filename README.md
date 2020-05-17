@@ -24,7 +24,9 @@ We have **wild** and **tame** animals.
 * Eat (an animal gains 1kg in weight when eating.)
 _ _ _ 
 
-#### Here is the class diagram: ####
+#### Class diagram: ####
+In this **class diagram** we have an abstract class called **Animal** with the method _Makesound_. The animals **cat, dog, bird** and **horse** with methodes _Eat, TalkToOwner, MakeSound_ and _ComeHere_ inheritates **ITame**. All the animals have a _weight_ and you can give them a _name_. The animals **bear, tiger** and **wolf** with methodes _Hunt_ and _MakeSound_ inheritates **IWild**. Wild animals also have a _weight_. Both Itame and IWild are using the interface **UserInterface**.
+
 ![class](https://github.com/markusbjorklund/noahs-ark/blob/master/assets/classdiagram.png)
 _ _ _
 
