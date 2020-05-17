@@ -56,4 +56,4 @@ If you are interested in how we progressed with adding files, building the progr
 _ _ _
 
 #### Copyright ####
-Copyright on drawn images © 2017-2020 [Anna Isokoski](https://www.instagram.com/eclipticanna/)
+Copyright on drawn images © 2017-2020, [Anna Isokoski](https://www.instagram.com/eclipticanna/)
