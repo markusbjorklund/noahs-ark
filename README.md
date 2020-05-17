@@ -24,18 +24,30 @@ We have **wild** and **tame** animals.
 * Eat (an animal gains 1kg in weight when eating.)
 _ _ _ 
 
-#### Here is the project's folder structure: ####
+#### Here is the class diagram: ####
+![class](https://github.com/markusbjorklund/noahs-ark/blob/master/assets/classdiagram.png)
+_ _ _
+
+#### Sequence diagram ####
+In the sequence diagram you can see how the program works. In the diagram we have included just one tame animal and one wild animal because the function is the same for all the other animal types.
+
+When you first run the program you are greeted with a welcome message and affer that you have the option to choose between a total of seven animals. This is the main startpoint for the program and also point to which we can refer to. Everytime you want to choose a new animal this is where you end up.
+
+As stated earlier in the readme file there is a small difference between how the tame versus wild animals behave but all the tame animals need to have a name before you can make them do anything.
+
+We also see a frequent use of the Console Clear command in the diagram and that is called to make the user experience more enjoyable and not clutter the whole terminal window.
+
+When done with the program and the user wants to quit, we are not doing it by breaking a loop. Instead we are using a global exit command.
+
+![sequence](https://github.com/markusbjorklund/noahs-ark/blob/master/assets/sequence_dia.png)
+_ _ _
+
+#### Folder structure ####
+This image represents a scaled down folder structure of the files used in our program. The files in assets folder are not shown in this image but that is where for example this file is.
 ![tree](https://github.com/markusbjorklund/noahs-ark/blob/master/assets/folder-structure-user-friendly.png)
 
 _ _ _
 
-#### Here is the class diagram: ####
-![class](https://github.com/markusbjorklund/noahs-ark/blob/master/assets/classdiagram.png)
-_ _ _
-#### Here is the sequence diagram: ####
-![sequence](https://github.com/markusbjorklund/noahs-ark/blob/master/assets/sequence_dia.png)
-_ _ _
-
-[Link to our Trello board](https://trello.com/b/a4C3DPrX/3sharp)
+If you are interested in how we progressed with adding files, building the program and extending it you are welocmed to check out our board in Trello. You can find it here [here](https://trello.com/b/a4C3DPrX/3sharp).
 
  
