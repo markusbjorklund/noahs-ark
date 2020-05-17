@@ -9,13 +9,13 @@ This program consists of a UserInterface where you can try out all the animals. 
 We have **wild** and **tame** animals. 
 
 ## WILD
- ![wolf](https://github.com/markusbjorklund/noahs-ark/blob/master/assets/wolf.jpg)
+ ![wild](assets/zebra.png)
  
 **Wild** animals are **tiger**, **wolf** and **bear** and they can:  
 * Make sound
-* Hunt (if an animals hunt is succeeded the animal gains 1kg of weight.)
+* Hunt (if an animals hunt succeeds the animal gains 1kg of weight.)
 ## TAME
-![dog](https://github.com/markusbjorklund/noahs-ark/blob/master/assets/max.jpg)
+![cat](assets/cat.png)
 
 **Tame** animals are **bird**, **cat**, **dog** and **horse** and they can: 
 * Talk to the owner
@@ -25,9 +25,9 @@ We have **wild** and **tame** animals.
 _ _ _ 
 
 #### Class diagram ####
-In this **class diagram** we have an abstract class called **Animal** with the method _Makesound_. The animals **cat, dog, bird** and **horse** with methodes _Eat, TalkToOwner, MakeSound_ and _ComeHere_ inheritates **ITame**. All the animals have a _weight_ and you can give them a _name_. The animals **bear, tiger** and **wolf** with methodes _Hunt_ and _MakeSound_ inheritates **IWild**. Wild animals also have a _weight_. Both Itame and IWild are using the interface **UserInterface**.
+In this **class diagram** we have an abstract class called **Animal** with the method _Makesound_. The animals **cat, dog, bird** and **horse** with methods _Eat, TalkToOwner, MakeSound_ and _ComeHere_ inheritates **ITame**. All the animals have a _weight_ which increases when they eat and you can give them a _name_. The animals **bear, tiger** and **wolf** with methods _Hunt_ and _MakeSound_ inheritates **IWild**. Wild animals also have a _weight_ that increases when a hunt is succesful. Both Itame and IWild are using the interface **UserInterface**.
 
-![class](https://github.com/markusbjorklund/noahs-ark/blob/master/assets/classdiagram.png)
+![class](assets/classdiagram.png)
 _ _ _
 
 #### Sequence diagram ####
@@ -41,16 +41,16 @@ We also see a frequent use of the Console Clear command in the diagram and that 
 
 When you are done with the program and want to quit we are using a global exit command instead of breaking the loop.
 
-![sequence](https://github.com/markusbjorklund/noahs-ark/blob/master/assets/sequence_dia.png)
+![sequence](assets/sequence_dia.png)
 _ _ _
 
 #### Folder structure ####
 This image represents a scaled down folder structure of the files used in our program. The files in assets folder are not shown in this image but that is where for example this file is.
 
-![tree](https://github.com/markusbjorklund/noahs-ark/blob/master/assets/folder-structure-user-friendly.png)
+![tree](assets/folder-structure-user-friendly.png)
 
 _ _ _
 
-If you are interested in how we progressed with adding files, building the program and extending it you are welocmed to check out our board in Trello. You can find it here [here](https://trello.com/b/a4C3DPrX/3sharp).
+If you are interested in how we progressed with adding files, building the program and extending it you are welcomed to check out our board in Trello. You can find it [here](https://trello.com/b/a4C3DPrX/3sharp).
 
  
