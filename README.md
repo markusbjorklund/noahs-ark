@@ -53,4 +53,7 @@ _ _ _
 
 If you are interested in how we progressed with adding files, building the program, and extending it you are welcomed to check out our board in Trello. You can find it [here](https://trello.com/b/a4C3DPrX/3sharp).
 
- 
+_ _ _
+
+#### Copyright ####
+Copyright on drawn images © 2017-2020 [Anna Isokoski](https://www.instagram.com/eclipticanna/)
