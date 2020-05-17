@@ -44,6 +44,7 @@ _ _ _
 
 #### Folder structure ####
 This image represents a scaled down folder structure of the files used in our program. The files in assets folder are not shown in this image but that is where for example this file is.
+
 ![tree](https://github.com/markusbjorklund/noahs-ark/blob/master/assets/folder-structure-user-friendly.png)
 
 _ _ _
